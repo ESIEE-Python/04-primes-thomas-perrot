@@ -1,21 +1,7 @@
-from math import sqrt
-
-#### Fonction secondaire
-
-
-def isprime(p):
-
-    # votre code ici
-
-    pass
-
-#### Fonction principale
-
-
+""" Fonction principale Main """ 
+from primes import isprime
 def main():
-
-    # vos appels à la fonction secondaire ici
-
+    """ Fonction appelée pour calculer un nombre """
     for n in range(100):
         if isprime(n):
             print(n, end=", ")
